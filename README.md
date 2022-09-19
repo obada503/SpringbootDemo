@@ -27,7 +27,8 @@
 
 Client Side (FRONTEND)
 ----------------------->
-API Layer 1 (GET-POST-PUT-DELETE)- talking to Layer 2 
+API 
+    Layer 1 (GET-POST-PUT-DELETE)- talking to Layer 2 
 
     Layer 2(Service Layer: For business logic)- giving back data to Layer 1. 
     
@@ -37,7 +38,8 @@ Spring Initializer: dependencies used
 -------------------------------------
 - Spring Web
 
-- Spring Data JPA-->abstracts the complexity needed to interact with databse.
+- Spring Data JPA
+                 -->abstracts the complexity needed to interact with databse.
 
                  -->abstraction on top of JPA and Hibernate.
 		 
@@ -45,7 +47,8 @@ Spring Initializer: dependencies used
 		 
                  -->reduces boiler plate code, and gives us ability to make a lot of queries.
 		 
-- PostgreSQL Driver--> To connect to Postgres: psql -U postgres
+- PostgreSQL Driver--> To connect to Postgres: 
+                                               psql -U postgres
 
 		                               \l- list databases
 		       
