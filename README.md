@@ -25,9 +25,9 @@
 @Repository, etc.
 
 
-Client Side (FRONTEND)
------------------------>
-API 
+Client Side API Layers
+-------------
+
     Layer 1 (GET-POST-PUT-DELETE)- talking to Layer 2 
 
     Layer 2(Service Layer: For business logic)- giving back data to Layer 1. 
@@ -47,7 +47,8 @@ Spring Initializer: dependencies used
 		 
                  -->reduces boiler plate code, and gives us ability to make a lot of queries.
 		 
-- PostgreSQL Driver--> To connect to Postgres: 
+ PostgreSQL Driver--> To connect to Postgres: 
+----------------------------------------------
                                                psql -U postgres
 
 		                               \l- list databases
@@ -56,7 +57,7 @@ Spring Initializer: dependencies used
 
 @RestController: makes the whole class serve restful endpoints.
 
---------------------
+
 @GetMapping package to annotate a block to get something from server.
 
 
