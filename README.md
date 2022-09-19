@@ -28,19 +28,28 @@
 Client Side (FRONTEND)
 ----------------------->
 API Layer 1 (GET-POST-PUT-DELETE)- talking to Layer 2 
+
     Layer 2(Service Layer: For business logic)- giving back data to Layer 1. 
+    
     Layer 3(Data access layer: For connecting to the Database)- the goal is to store the student in the database.
 
 Spring Initializer: dependencies used
-------------------
+-------------------------------------
 - Spring Web
+
 - Spring Data JPA-->abstracts the complexity needed to interact with databse.
+
                  -->abstraction on top of JPA and Hibernate.
+		 
                  -->hibernate is one implementation of JPA
+		 
                  -->reduces boiler plate code, and gives us ability to make a lot of queries.
+		 
 - PostgreSQL Driver--> To connect to Postgres: psql -U postgres
-		       \l- list databases
-		       \c-connect to database	 
+
+		                               \l- list databases
+		       
+		                               \c-connect to database	 
 
 @RestController: makes the whole class serve restful endpoints.
 
