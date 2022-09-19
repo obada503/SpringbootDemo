@@ -97,6 +97,7 @@ Debugging
 
 run cmd as administrator:
 
-Solution-> netstat -ona | findstr :8080 | findstr LISTENING
+Solution-> 
+	netstat -ona | findstr :8080 | findstr LISTENING
 
 	-> taskkill /PID 26748 /F 
